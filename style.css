@@ -1,6 +1,7 @@
 body{
   padding: 100px;
   align-items: center;
+  background-color: aqua;
 }
 .box{
     background-color:yellow;
@@ -171,3 +172,37 @@ body{
    .n1{
      height:300px
    }
+
+.main_1{
+  width:800px;
+  height:300px;
+  background:yellow;
+/*   display:flex; */
+/*   gap:10px; */
+  padding:10px;
+/*   justify-content:space-around; */
+  
+  
+/*   align-items:center; */
+  
+}
+
+.w{
+  width:70px;
+  height:70px;
+  background-color:black; 
+}
+.inner_div{
+  display:flex;
+  gap:20px;
+  align-items:center;
+  justify-content:space-between;
+ 
+ 
+}
+
+
+
+h1{
+  text-align:center;}
+
