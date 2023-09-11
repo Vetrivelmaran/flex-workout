@@ -1,3 +1,7 @@
+body{
+  padding: 100px;
+  align-items: center;
+}
 .box{
     background-color:yellow;
     height:100px;
@@ -26,6 +30,24 @@
     display:flex;
     gap:20px;
     flex-direction:row-reverse;
+    padding:10px
+  }
+  .new-1{
+    background-color:yellow;
+    height:100px;
+    width:40%;
+    display:flex;
+    gap:20px;
+    justify-content: space-around;
+    padding:10px
+  }
+  .new-2{
+    background-color:yellow;
+    height:100px;
+    width:40%;
+    display:flex;
+    gap:10px;
+    justify-content:center;
     padding:10px
   }
   .box3{
@@ -101,3 +123,51 @@
   .item-3{
     align-items: baseline;
   }
+  .container{
+    height:250px;
+    display:flex;
+    background:violet;
+  /*   column-gap:10px; */
+    row-gap:10px;
+    padding-left:10px;
+    padding-top:10px;
+   flex-flow:column wrap;
+    
+  }
+  .in_box1{
+    background:green;
+    width:100px;
+    height:100px;
+   }
+  .in_box2{
+    background:lightseagreen;
+    width:100px;
+    height:100px;
+   }
+  .in_box3{
+    background:red;
+    width:100px;
+    height:100px;
+   }
+  .in_box4{
+    background:lightblue;
+    width:100px;
+    height:100px;
+   }
+   .main{
+    height:300px;
+    background-color:yellow;
+    gap:20px;
+    display:flex;
+    padding:10px;
+    justify-content:center;
+    align-items:center;
+   }
+   .n{
+   /*   height:150px; */
+     width:100px;
+     background-color:red;
+   }
+   .n1{
+     height:300px
+   }
