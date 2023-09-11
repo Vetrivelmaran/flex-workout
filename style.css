@@ -273,3 +273,25 @@ h1{
   flex-wrap:wrap;
   align-content: flex-end;
 }
+.order{
+  background-color: yellow;
+  height: 100px;
+  width: 40%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  /* flex-wrap: wrap; */
+}
+.or1{
+  background-color: lightseagreen;
+  width: 25%
+}
+.or2{
+  background-color:violet;
+  width: 25%
+}
+.or3{
+  background-color:lawngreen;
+  width: 25%
+}
+
