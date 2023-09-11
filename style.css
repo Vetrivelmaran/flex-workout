@@ -33,6 +33,25 @@ body{
     flex-direction:row-reverse;
     padding:10px
   }
+  .flex-column{
+    background-color:yellow;
+    height:100px;
+    width:40%;
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+    padding:10px
+  }
+  .column-rev{
+    background-color:yellow;
+    height:100px;
+    width:40%;
+    display:flex;
+    gap:20px;
+    flex-direction:column-reverse;
+    padding:10px
+  }
+  
   .new-1{
     background-color:yellow;
     height:100px;
@@ -106,6 +125,9 @@ body{
   .item-1{
   align-items:center;  
   }
+  .align-center{
+    align-items: end;
+  }
   .item-2 .b{
     background-color:green;
     width:100px;
@@ -114,6 +136,15 @@ body{
   }
   .item-2{
     justify-content:flex-end;
+  }
+  .just-end{
+    
+    justify-content:center;
+  }
+  .just-end .b{
+    background-color: green;
+    width: 100px;
+    height: 100px;
   }
   .item-3 .b1 ,.c1, .c2{
     width: 100px;
@@ -162,7 +193,7 @@ body{
     display:flex;
     padding:10px;
     justify-content:center;
-    align-items:center;
+    /* align-items:center; */
    }
    .n{
    /*   height:150px; */
@@ -205,4 +236,40 @@ body{
 
 h1{
   text-align:center;}
+.align-content{
+  width: 1000px;
+  height: 582px;
+  background: yellow;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
 
+}
+.content{
+  width: 400px;
+  height: 40px;
+  background-color: blueviolet;
+}
+.al-1{
+  flex-wrap: wrap;
+  align-content: center;
+  /* justify-content: center; */
+
+}
+
+.al-2{
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.al-3{
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.al-4{
+  flex-wrap:wrap;
+  align-content: flex-start;
+}
+.al-5{
+  flex-wrap:wrap;
+  align-content: flex-end;
+}
