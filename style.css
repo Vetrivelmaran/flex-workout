@@ -295,3 +295,34 @@ h1{
   width: 25%
 }
 
+.des{
+  height: 200px;
+  background-color: blueviolet;
+  padding: 20px;
+}
+.bo_{
+  background-color: aquamarine;
+}
+.flex{
+  display:flex;
+  gap:10px;
+}
+.bo_{
+  flex-grow:1;
+}
+.bo_3{
+  flex-grow: 4;
+}
+.flex-shrink{
+  display: flex;
+  gap: 20px;
+  background-color: blueviolet;
+  padding: 20px;
+}
+.shrink{
+  
+  flex-grow: 1;
+  flex-shrink: 10;
+  width: 40px;
+  background-color: aquamarine;
+}
